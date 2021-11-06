@@ -107,7 +107,7 @@ void list_aps(char* interface_name, bool show_json)
 			} else {
 				if (i > 0)
 					printf(",");
-				printf("{\"BSSID\":\"%s\",\"SSID\":\"%s\",\"frequency\":%u,\"signal\":%d, \"InterfaceName\":\"%s\"}",
+				printf("{\"BSSID\":\"%s\",\"SSID\":\"%s\",\"frequency\":%u,\"signal\":%d, \"interfaceName\":\"%s\"}",
 					bssid_to_string(bss[i].bssid, mac),
 					bss[i].ssid,
 					bss[i].frequency,

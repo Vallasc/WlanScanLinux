@@ -1,6 +1,8 @@
 # WlanScanLinux
+Trigger scans for wireless networks and show visible networks.
 
-
-sudo apt-get install build-essential
-# get dependencies
-sudo apt-get install libmnl0 libmnl-dev
+```
+WlanScan - A small utility for triggering scans for wireless networks for Windows systems
+--json,        -j        Shows networks in json format.
+--help,        -h        Shows this help.
+```
